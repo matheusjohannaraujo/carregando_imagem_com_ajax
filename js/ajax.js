@@ -1,10 +1,3 @@
-/*
-	Brasil\Pernambuco
-	Developer: Matheus Johann Araújo
-	Data: 22/04/2018
-	Bitbucket: https://bitbucket.org/matheusjohannaraujo/html5_ajax_php
-*/
-
 function AJAX(){
 	var ajax = false;
 	if(window.XMLHttpRequest){
@@ -53,7 +46,7 @@ function AJAX(){
 		};
 	    ajax.onloadstart = function(){
 	    	if(ajax.debug)
-				console.log("Carregamento dos dados começou!");
+				console.log("Carregamento dos dados comeÃ§ou!");
 		};
 		ajax.onloadend = function(){
 			if(ajax.debug)
